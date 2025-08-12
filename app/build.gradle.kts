@@ -53,11 +53,16 @@ dependencies {
     implementation(libs.androidx.material3)
     //Dagger
     implementation(libs.hilt.android)
+    implementation(libs.room.compiler)
     ksp(libs.hilt.compiler)
     //Icons
     implementation(libs.androidx.material.icon)
     //LiveData
     implementation(libs.androidx.compose.runtime)
+    //Room
+    implementation(libs.androidx.room)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
