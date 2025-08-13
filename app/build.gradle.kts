@@ -53,7 +53,6 @@ dependencies {
     implementation(libs.androidx.material3)
     //Dagger
     implementation(libs.hilt.android)
-    implementation(libs.room.compiler)
     ksp(libs.hilt.compiler)
     //Icons
     implementation(libs.androidx.material.icon)
